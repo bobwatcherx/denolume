@@ -1,0 +1,10 @@
+layout : layout.njk
+people:
+  - name: Oscar Otero
+    color: black
+
+  - name: Laura Rubio
+    color: blue
+name: Jonson
+age: 50
+address: new york

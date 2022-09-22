@@ -1,0 +1,15 @@
+---
+title: my duck page
+layout: layout.njk
+---
+
+<div>
+<h1>{{title}}</h1>
+<ul>
+{%  for p in people %}
+	<li>
+	<p>{{p.name}} - {{p.color}}</p>
+	</li>
+{% endfor %}
+</ul>
+</div>
