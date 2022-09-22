@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    1missions:
+    permissions:
       id-token: write
       contents: read
 
